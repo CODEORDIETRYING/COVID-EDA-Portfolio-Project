@@ -117,5 +117,5 @@ AS
 )
 
 
-SELECT *, (cummulative_new_vaccinations/population)*100 AS rate_of_vaccination
+SELECT *
 FROM VaccVsPop
